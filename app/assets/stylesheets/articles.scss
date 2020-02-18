@@ -1,0 +1,50 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background: gray;
+}
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: lightgray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+ul li {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+  background: #cce5ff;
+  margin: 5px;
+  position: relative;
+  transition: 0.3s;
+  border: 1px solid #3D7E9A
+}
+
+li:hover {
+  transform: scale(1.05)
+}
+
+.deleted {
+  position: absolute;
+  right: 20px;
+  bottom: 4px;
+}
+
+.title {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #001628;
+}
+
+.title:hover {
+  color: green;
+}
